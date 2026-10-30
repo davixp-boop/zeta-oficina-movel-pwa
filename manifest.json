@@ -1,11 +1,11 @@
-﻿{
-  "name": "Zeta Oficina MÃ³vel",
+{
+  "name": "Zeta Oficina Móvel",
   "short_name": "Zeta Oficina",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#E52414",
-  "description": "Aplicativo de controle das oficinas mÃ³veis da Zetaloc.",
+  "description": "Aplicativo de controle das oficinas móveis da Zetaloc.",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

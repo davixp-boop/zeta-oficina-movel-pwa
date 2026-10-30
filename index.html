@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <base href="/zeta-oficina-movel-pwa/">
@@ -8,13 +8,12 @@
 
   <meta
     name="description"
-    content="Aplicativo de controle das oficinas mÃ³veis da Zetaloc."
+    content="Aplicativo de controle das oficinas móveis da Zetaloc."
   >
 
-  <!-- Cor do aplicativo -->
   <meta name="theme-color" content="#E52414">
 
-  <!-- ConfiguraÃ§Ãµes PWA para iPhone/iPad -->
+  <!-- PWA / iPhone -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -25,10 +24,9 @@
 
   <meta
     name="apple-mobile-web-app-title"
-    content="Zeta Oficina MÃ³vel"
+    content="Zeta Oficina Móvel"
   >
 
-  <!-- Ãcone utilizado pelo iPhone ao adicionar Ã  Tela de InÃ­cio -->
   <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -42,12 +40,14 @@
     href="favicon-v2.png"
   >
 
-  <title>Zeta Oficina MÃ³vel</title>
+  <title>Zeta Oficina Móvel</title>
 
   <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="odometer_ocr.js"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
